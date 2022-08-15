@@ -1,0 +1,158 @@
+/* Set everything to box size*/
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 48px 24px auto 24px;
+}
+
+.text {
+  color: #404040;
+  font-family: "Roboto", sans-serif;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.main-header p {
+  margin-top: 4px;
+}
+.caption {
+  color: #404040;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.btn {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ee2375;
+}
+.btn:hover {
+  background-color: #d40c5d;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.material-icons {
+  color: white;
+  padding-top: 4px;
+}
+.task-info {
+  margin-left: 32px;
+}
+.task-brief {
+  display: flex;
+  border-bottom: 1px solid #ededed;
+}
+.subtitle {
+  font-size: 20px;
+}
+.cards {
+  padding: 16px 0 0 16px;
+  width: 140px;
+  height: 72px;
+}
+
+.task-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 140px);
+  grid-template-rows: 72px 72px;
+  gap: 8px;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.show {
+  margin-top: 12px;
+  background-color: #ffffff;
+  box-shadow: 3px 2px 12px 1px rgb(237, 236, 255);
+  border-radius: 6px;
+}
+
+.daily-tasks {
+  margin-top: 48px;
+}
+
+.timeline-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin-top: 32px;
+}
+.time {
+  width: 40px;
+  font-size: 13px;
+}
+
+.divider {
+  margin-left: 16px;
+  border: 1px solid #d4d4d4;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.single-task {
+  background-color: #a1a1a1;
+  box-shadow: 3px 2px 12px 1px rgb(237, 236, 255);
+  border: 1px solid rgb(241, 241, 241);
+  width: 80%;
+  padding: 12px;
+  margin-left: 56px;
+  border-radius: 6px;
+  position: absolute;
+
+  top: 450px;
+}
+
+.first {
+  z-index: 1;
+  top: 450px;
+}
+.second {
+  z-index: 1;
+  top: 550px;
+}
+.single-task h4 {
+  margin-bottom: 4px;
+}
+
+.single-task:hover {
+  background-color: #42aafd;
+}
+.single-task:hover .text {
+  color: #fff;
+}
+
+.newCard {
+  width: 100%;
+  height: 100px;
+}

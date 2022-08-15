@@ -1,0 +1,128 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: 48px 24px auto 24px;
+}
+
+.btn {
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.task-title {
+  margin-top: 16px;
+  height: 48px;
+  width: 100%;
+  border: 0;
+}
+.task-title::placeholder {
+  color: #adadad;
+  font-size: 20px;
+}
+
+.choose-date {
+  margin-top: 24px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.choose-time {
+  margin-top: 24px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.label {
+  width: 100%;
+  border: 0;
+}
+
+.date {
+  height: 48px;
+  /* border: 0; */
+}
+
+.time {
+  height: 48px;
+  /* border: 0; */
+}
+
+.choose-task {
+  margin-top: 16px;
+}
+
+.choose-task .btns {
+  margin: 8px 4px 8px 4px;
+}
+.btns {
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(255, 196, 196);
+  width: auto;
+  padding: 12px 16px 12px 16px;
+}
+
+#work {
+  background-color: rgb(44, 143, 255);
+  color: #fff;
+}
+
+#personal {
+  background-color: rgb(0, 148, 181);
+  color: #fff;
+}
+#shopping {
+  background-color: rgb(89, 0, 255);
+  color: #fff;
+}
+#health {
+  background-color: rgb(255, 0, 195);
+  color: #fff;
+}
+#other {
+  background-color: rgb(144, 0, 255);
+  color: #fff;
+}
+
+.write-desc {
+  margin-top: 8px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.text-area {
+  height: 48px;
+  /* border: 0; */
+}
+
+.submit {
+  margin-top: 24px;
+  height: 48px;
+  background-color: #ee2375;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+}

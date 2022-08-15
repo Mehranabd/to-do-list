@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="addtask.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <script src=""></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="container">
+      <article class="topnav">
+        <button class="btn" type="button">
+          <i class="material-icons"><p>chevron_left</p></i>
+        </button>
+        <article class="add-task">
+          <input class="task-title" type="text" placeholder="Add task" />
+          <div class="choose-date">
+            <label class="label" for="date"
+              ><p class="">Choose a date:</p></label
+            >
+            <input class="date" type="date" id="date" name="date" />
+          </div>
+          <!-- <div class="choose-time">
+            <input type="time" /> -->
+
+          <div class="choose-time">
+            <label class="label" for="time"
+              ><p class="">Choose a time:</p></label
+            >
+            <select class="time" name="time" id="choose-time">
+              <option value="1".selected>8 till 8:30</option>
+              <option value="2">8:30 till 9</option>
+              <option value="3">9 till 9:30</option>
+              <option value="4">9:30 till 10</option>
+              <option value="5">10:30 till 11:00</option>
+            </select>
+          <div class="choose-task">
+            <button type="button" class="btns" id="work">Work</button>
+            <button type="button" class="btns" id="personal">Personal</button>
+            <button type="button" class="btns" id="shopping">Shopping</button>
+            <button type="button" class="btns" id="health">Health</button>
+            <button type="button" class="btns" id="other">other</button>
+          </div>
+          <div class="write-desc">
+            <label for="text-area">Write a description</label>
+            <input
+              type="text-area"
+              class="text-area"
+              placeholder="Description..."
+            />
+          </div>
+          <button class="submit" type="submit">Submit</button>
+        </article>
+      </article>
+    </section>
+  </body>
+</html>
